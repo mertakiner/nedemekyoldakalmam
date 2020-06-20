@@ -1,0 +1,12 @@
+.card {
+    max-width: 540px;
+    border: none;
+}
+
+.row {
+    background-color: white;
+}
+
+h5 {
+    color:  #FFC326;
+}

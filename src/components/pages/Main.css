@@ -1,12 +1,17 @@
 .card {
     max-width: 540px;
     border: none;
+    background-color: black;
 }
 
-.row {
-    background-color: white;
+.two > .row {
+    background-color: black;
 }
 
 h5 {
     color:  #FFC326;
+}
+
+h6 {
+    color: white;    
 }

@@ -5,7 +5,7 @@ import './Header.css';
 
 export default function Header() {
     return (
-<div className="container">
+<div className="header container">
   <div className="h-100 row">
     <div className="col-2 w-100 align-self-center">
         <img src={logo} class="rounded mx-auto d-block" alt="..." />

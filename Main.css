@@ -1,0 +1,49 @@
+.card {
+    /*
+    max-width: 540px;*/
+    border: none;
+    background-color: black;
+}
+
+.cardbody {
+    max-width: 320px;
+    padding: 10px;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+
+
+}
+
+.two>.row {
+    background-color: black;
+}
+
+h5 {
+    color: #FFC326;
+}
+
+h6 {
+    color: white;
+}
+
+body {
+    color: white;
+}
+
+.card-title-up {
+    color: #FFC326;
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.card-text-up {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.buttonX {
+    color: #FFC326;
+}

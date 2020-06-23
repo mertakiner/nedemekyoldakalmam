@@ -26,13 +26,6 @@ export default function Main() {
             <p class="card-text-up">7/24 Yol Yardım</p>
           </div>
         </div>
-        {/* <div class="container-fluid no-padding px-0">
-          <div class="row">
-            <div class="col-md-12">
-              <img src={Header} alt="placeholder 960" class="img-responsive" />
-            </div>
-          </div>
-        </div> */}
       </div>
 
       <div className="container two row" style={{ margin: "0px" }}>
@@ -145,7 +138,7 @@ export default function Main() {
       </div>
 
       <div classNameName="container three">
-        <div className="row">
+        <div className="row d-flex justify-content-around">
           <div className="cardbody">
             <img src={cekici1} className="card-img" alt="..." />
           </div>
@@ -169,7 +162,7 @@ export default function Main() {
       </div>
 
       <div className="container four">
-        <div className="row">
+        <div className="row d-flex justify-content-around">
           <div className="col">
             <div className="card">
               <div className="row">
@@ -184,7 +177,11 @@ export default function Main() {
                 <div className="col-9">
                   <h6
                     className="card-title"
-                    style={{ padding: "5px", margin: "0px" }}
+                    style={{
+                      padding: "5px",
+                      margin: "0px",
+                      textAlign: "justify",
+                    }}
                   >
                     Gece yarısı aracımız bozuldu ve yolda kaldık. Yardım ekibi
                     çok kısa sürede yanımıza geldi ve aracımızı çektiler.
@@ -207,7 +204,11 @@ export default function Main() {
                 <div className="col-9">
                   <h6
                     className="card-title"
-                    style={{ padding: "5px", margin: "0px" }}
+                    style={{
+                      padding: "5px",
+                      margin: "0px",
+                      textAlign: "justify",
+                    }}
                   >
                     Yolda kalmam diyenlerden olarak maalesef yolda kaldık. İyi
                     ki çekici servisini aradık ve kısa sürede aracımızı servise
@@ -231,7 +232,11 @@ export default function Main() {
                 <div className="col-9">
                   <h6
                     className="card-title"
-                    style={{ padding: "5px", margin: "0px" }}
+                    style={{
+                      padding: "5px",
+                      margin: "0px",
+                      textAlign: "justify",
+                    }}
                   >
                     Bursa’da uygun fiyatlı ve kaliteli hizmet veren az sayıdaki
                     çekiciden birisi. Teşekkür ederiz.

@@ -67,7 +67,11 @@ export default function Footer() {
                 >
                   <h5
                     className="card-title"
-                    style={{ padding: "5px", margin: "0px", color: "black" }}
+                    style={{
+                      padding: "5px",
+                      margin: "0px",
+                      color: "black",
+                    }}
                   >
                     <a
                       href="tel:05412661616"

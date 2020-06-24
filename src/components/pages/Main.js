@@ -23,7 +23,7 @@ export default function Main() {
             <p class="card-text-up">
               Bursa'da yol yardımı alabileceğiniz en profesyonel adres
             </p>
-            <p class="card-text-up">7/24 Yol Yardım</p>
+            <p class="card-text-up bighide2">7/24 Yol Yardım</p>
           </div>
         </div>
       </div>
@@ -163,7 +163,7 @@ export default function Main() {
 
       <div className="container four">
         <div className="row d-flex justify-content-around">
-          <div className="col">
+          <div className="col-sm">
             <div className="card">
               <div className="row">
                 <div className="col-3">
@@ -180,7 +180,7 @@ export default function Main() {
                     style={{
                       padding: "5px",
                       margin: "0px",
-                      textAlign: "justify",
+                      textAlign: "left",
                     }}
                   >
                     Gece yarısı aracımız bozuldu ve yolda kaldık. Yardım ekibi
@@ -190,7 +190,7 @@ export default function Main() {
               </div>
             </div>
           </div>
-          <div className="col">
+          <div className="col-sm">
             <div className="card">
               <div className="row">
                 <div className="col-3">
@@ -207,7 +207,7 @@ export default function Main() {
                     style={{
                       padding: "5px",
                       margin: "0px",
-                      textAlign: "justify",
+                      textAlign: "left",
                     }}
                   >
                     Yolda kalmam diyenlerden olarak maalesef yolda kaldık. İyi
@@ -218,7 +218,7 @@ export default function Main() {
               </div>
             </div>
           </div>
-          <div className="col">
+          <div className="col-sm">
             <div className="card">
               <div className="row">
                 <div className="col-3">
@@ -235,7 +235,7 @@ export default function Main() {
                     style={{
                       padding: "5px",
                       margin: "0px",
-                      textAlign: "justify",
+                      textAlign: "left",
                     }}
                   >
                     Bursa’da uygun fiyatlı ve kaliteli hizmet veren az sayıdaki

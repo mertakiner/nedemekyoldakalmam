@@ -37,7 +37,7 @@ export default function Footer() {
                     style={{ padding: "5px", margin: "0px", color: "black" }}
                   >
                     <a
-                      href="https://api.whatsapp.com/send?phone=905058245188&text=Deneme. Merhaba yolda kalmam dedim ama yolda kaldım."
+                      href="https://api.whatsapp.com/send?phone=905412661616&text=Merhaba yolda kalmam dedim ama yolda kaldım. Acil oto çekici gönderebilir misiniz?"
                       class="button"
                       target="_blank"
                       rel="noopener noreferrer"

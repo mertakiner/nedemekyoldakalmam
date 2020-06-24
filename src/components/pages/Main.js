@@ -4,31 +4,28 @@ import PH from "../files/phone-call.svg";
 import DE from "../files/deal.svg";
 import CO from "../files/comment.svg";
 import Header from "../files/header.jpeg";
+import cekici1 from "../files/cekici-1.jpeg";
+import cekici2 from "../files/cekici-2.jpeg";
+import cekici3 from "../files/cekici-3.jpeg";
+import cekici4 from "../files/cekici-4.jpeg";
+import cekici5 from "../files/cekici-5.jpeg";
+import cekici6 from "../files/cekici-6.jpeg";
 import "./Main.css";
 
 export default function Main() {
   return (
-    <div>
-      <div className="container one">
-        <div className="card bg-dark text-white">
+    <div className="mainBody">
+      <div className="container one" style={{ padding: "0px"}}>
+        <div className="card bg-dark text-white ">
           <img src={Header} className="card-img" alt="..." />
           <div className="card-img-overlay">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+            <p class="card-title-up">Ne demek yolda kalmam...</p>
+            <p class="card-text-up">
+              Bursa'da yol yardımı alabileceğiniz en profesyonel adres
             </p>
-            <p class="card-text">Last updated 3 mins ago</p>
+            <p class="card-text-up">7/24 Yol Yardım</p>
           </div>
         </div>
-        {/* <div class="container-fluid no-padding px-0">
-          <div class="row">
-            <div class="col-md-12">
-              <img src={Header} alt="placeholder 960" class="img-responsive" />
-            </div>
-          </div>
-        </div> */}
       </div>
 
       <div className="container two row" style={{ margin: "0px" }}>
@@ -91,7 +88,14 @@ export default function Main() {
                     className="card-title"
                     style={{ padding: "5px", margin: "0px" }}
                   >
-                    (0541) 266 16 16
+                    <a
+                      href="tel:05412661616"
+                      class="buttonX"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      (0541) 266 16 16
+                    </a>
                   </h5>
                 </div>
               </div>
@@ -133,10 +137,32 @@ export default function Main() {
         </div>
       </div>
 
-      <div classNameName="container three">Image</div>
+      <div classNameName="container three">
+        <div className="row d-flex justify-content-around">
+          <div className="cardbody">
+            <img src={cekici1} className="card-img" alt="..." />
+          </div>
+          <div className="cardbody">
+            <img src={cekici2} className="card-img" alt="..." />
+          </div>
+          <div className="cardbody">
+            <img src={cekici3} className="card-img" alt="..." />
+          </div>
+          <div class="w-100"></div>
+          <div className="cardbody">
+            <img src={cekici4} className="card-img" alt="..." />
+          </div>
+          <div className="cardbody">
+            <img src={cekici5} className="card-img" alt="..." />
+          </div>
+          <div className="cardbody">
+            <img src={cekici6} className="card-img" alt="..." />
+          </div>
+        </div>
+      </div>
 
       <div className="container four">
-        <div className="row">
+        <div className="row d-flex justify-content-around">
           <div className="col">
             <div className="card">
               <div className="row">
@@ -151,7 +177,11 @@ export default function Main() {
                 <div className="col-9">
                   <h6
                     className="card-title"
-                    style={{ padding: "5px", margin: "0px" }}
+                    style={{
+                      padding: "5px",
+                      margin: "0px",
+                      textAlign: "justify",
+                    }}
                   >
                     Gece yarısı aracımız bozuldu ve yolda kaldık. Yardım ekibi
                     çok kısa sürede yanımıza geldi ve aracımızı çektiler.
@@ -174,7 +204,11 @@ export default function Main() {
                 <div className="col-9">
                   <h6
                     className="card-title"
-                    style={{ padding: "5px", margin: "0px" }}
+                    style={{
+                      padding: "5px",
+                      margin: "0px",
+                      textAlign: "justify",
+                    }}
                   >
                     Yolda kalmam diyenlerden olarak maalesef yolda kaldık. İyi
                     ki çekici servisini aradık ve kısa sürede aracımızı servise
@@ -198,7 +232,11 @@ export default function Main() {
                 <div className="col-9">
                   <h6
                     className="card-title"
-                    style={{ padding: "5px", margin: "0px" }}
+                    style={{
+                      padding: "5px",
+                      margin: "0px",
+                      textAlign: "justify",
+                    }}
                   >
                     Bursa’da uygun fiyatlı ve kaliteli hizmet veren az sayıdaki
                     çekiciden birisi. Teşekkür ederiz.

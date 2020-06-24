@@ -1,4 +1,9 @@
-.header > .container {
+.header {
     background-color: #FFC326;
     height: 98px;
 }
+
+p {
+    color: black;
+}
+

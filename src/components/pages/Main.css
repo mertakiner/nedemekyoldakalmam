@@ -69,6 +69,10 @@ body {
 .bighide2 {
     display: none;
 }
+.cardbody > img {
+    height: 30vh;
+}
+
 }
 
 @media (max-width: 768px) { 

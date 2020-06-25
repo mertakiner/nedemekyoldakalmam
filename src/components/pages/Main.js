@@ -17,7 +17,7 @@ export default function Main() {
   return (
     <div className="mainBody">
       <div className="container one" style={{ padding: "0px" }}>
-        <div className="col-sm align-self-center" style={{ padding: "0px" }}>
+        <div className="col-sm align-self-center small" style={{ padding: "0px" }}>
           <div className="card align-self-center" style={{ margin: "0px" }}>
             <div className="row" style={{ margin: "0px" }}>
               <div

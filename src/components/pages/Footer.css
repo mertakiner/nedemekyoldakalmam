@@ -5,3 +5,27 @@
 .button {
     color: black;
 }
+
+@media (max-width: 576px) {
+    .foothide {
+        display: none;
+    }
+
+    .smallit {
+        width: 50%;
+        height: 50%;
+    }
+
+    .smallitt {
+        width: 40%;
+        height: 40%;
+    }
+
+    .smallrow {
+        margin: 10px;
+    }
+
+    .space {
+        margin-bottom: 10px;
+    }
+}

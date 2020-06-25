@@ -6,20 +6,23 @@ import "./Footer.css";
 export default function Footer() {
   return (
     <div>
-      <div className="containers two row fixed-bottom" style={{ margin: "0px" }}>
+      <div
+        className="containers two row fixed-bottom"
+        style={{ margin: "0px" }}
+      >
         <div className="col-sm align-self-center" style={{ padding: "0px" }}>
           <div
             className="cardfooter align-self-center"
             style={{ margin: "0px" }}
           >
-            <div className="row" style={{ margin: "0px" }}>
+            <div className="row space">
               <div
                 className="col-3 align-self-center"
                 style={{ padding: "0px" }}
               >
                 <img
                   src={WA}
-                  className="rounded mx-auto d-block"
+                  className="rounded mx-auto d-block smallit"
                   alt="..."
                   style={{ padding: "0px" }}
                 />
@@ -50,7 +53,10 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="col-sm align-self-center" style={{ padding: "0px" }}>
+        <div
+          className="col-sm align-self-center foothide"
+          style={{ padding: "0px" }}
+        >
           <div className="cardfooter">
             <div className="row" style={{ margin: "0px" }}>
               <div
@@ -89,14 +95,14 @@ export default function Footer() {
         </div>
         <div className="col-sm align-self-center" style={{ padding: "0px" }}>
           <div className="cardfooter">
-            <div className="row" style={{ margin: "0px" }}>
+            <div className="row space">
               <div
                 className="col-3 align-self-center"
                 style={{ padding: "0px" }}
               >
                 <img
                   src={PC}
-                  className="rounded mx-auto d-block"
+                  className="rounded mx-auto d-block smallitt"
                   alt="..."
                   style={{
                     padding: "0px",

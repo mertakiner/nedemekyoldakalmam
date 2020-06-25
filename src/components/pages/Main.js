@@ -10,13 +10,53 @@ import cekici3 from "../files/cekici-3.jpeg";
 import cekici4 from "../files/cekici-4.jpeg";
 import cekici5 from "../files/cekici-5.jpeg";
 import cekici6 from "../files/cekici-6.jpeg";
+import Capa_1 from "../files/tow-truck.svg";
 import "./Main.css";
 
 export default function Main() {
   return (
     <div className="mainBody">
-      <div className="container one" style={{ padding: "0px"}}>
-        <div className="card bg-dark text-white ">
+      <div className="container one" style={{ padding: "0px" }}>
+        <div className="col-sm align-self-center" style={{ padding: "0px" }}>
+          <div className="card align-self-center" style={{ margin: "0px" }}>
+            <div className="row" style={{ margin: "0px" }}>
+              <div
+                className="col-3 align-self-center"
+                style={{ padding: "0px" }}
+              >
+                <img
+                  src={Capa_1}
+                  className="rounded mx-auto d-block"
+                  alt="..."
+                  style={{ padding: "0px" }}
+                />
+              </div>
+              <div
+                className="col-9 align-self-center"
+                style={{ padding: "0px" }}
+              >
+                <div
+                  className="card-body"
+                  style={{ padding: "0px", margin: "20px" }}
+                >
+                  <h5
+                    className="card-title text-white"
+                    style={{ padding: "5px", margin: "0px" }}
+                  >
+                    Bursa'da yol yardımı alabileceğiniz en profesyonel adres
+                  </h5>
+                  <h5
+                    className="card-title text-white"
+                    style={{ padding: "5px", margin: "0px" }}
+                  >
+                    7/24 Yol Yardım
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="card bg-dark text-white bighide2">
           <img src={Header} className="card-img" alt="..." />
           <div className="card-img-overlay">
             <p class="card-title-up">Ne demek yolda kalmam...</p>

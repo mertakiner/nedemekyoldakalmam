@@ -43,7 +43,7 @@ export default function Main() {
                     className="card-title text-white"
                     style={{ padding: "5px", margin: "0px" }}
                   >
-                    Bursa'da yol yardımı alabileceğiniz en profesyonel adres
+                    Bursa'da yol yardımı alabileceğiniz en profesyonel adre
                   </h5>
                   <h5
                     className="card-title text-white"
